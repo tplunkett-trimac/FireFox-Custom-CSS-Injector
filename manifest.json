@@ -6,9 +6,7 @@
     "author": "Sina Jalalvandi",
     "homepage_url": "https://sinajalalvandi.ir",
     "permissions": [
-        "storage",
-        "activeTab",
-        "scripting"
+        "storage"
     ],
     "host_permissions": [
         "<all_urls>"
@@ -44,8 +42,13 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "fccssi@sinajalalvandi.ir",
-            "strict_min_version": "58.0"
+            "id": "css-injector@trimac.com",
+            "strict_min_version": "140.0",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
         }
     }
 }
