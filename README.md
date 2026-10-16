@@ -1,3 +1,6 @@
+# Fork notes
+This was forked so it can be installed without worrying about updates being compromised before being reviewed.
+
 # Custom CSS Injector (Firefox Addon)
 
 A simple Firefox browser extension that allows you to inject your own custom CSS rules into any website. Styles are saved per domain and applied automatically whenever you visit the site.
